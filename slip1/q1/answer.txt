@@ -1,0 +1,24 @@
+1. Install / Configure Java Development Kit (JDK), Android Studio and Android SDK
+
+To begin Android development, you need to set up the Java Development Kit (JDK), Android Studio, and the Android Software Development Kit (SDK). Here are the steps:
+
+**Step 1: Install Java Development Kit (JDK)**
+- Download the latest JDK from the official Oracle website (https://www.oracle.com/java/technologies/javase-downloads.html).
+- Run the installer and follow the on-screen instructions.
+- Set the JAVA_HOME environment variable:
+  - Right-click on 'This PC' > Properties > Advanced system settings > Environment Variables.
+  - Under System Variables, click 'New', enter `JAVA_HOME` as the variable name and the JDK installation path as the value.
+  - Add `%JAVA_HOME%\bin` to the 'Path' variable.
+- Verify installation by running `java -version` in the command prompt.
+
+**Step 2: Install Android Studio**
+- Download Android Studio from https://developer.android.com/studio.
+- Run the installer and follow the setup wizard. It will guide you through installing Android Studio, the Android SDK, and the Android Virtual Device (AVD) manager.
+- Launch Android Studio after installation.
+
+**Step 3: Install Android SDK**
+- During Android Studio setup, the SDK is usually installed automatically.
+- To verify or install additional SDKs, open Android Studio > Tools > SDK Manager.
+- Select the required SDK platforms and tools, then click 'Apply' to download and install them.
+
+With these steps, your system will be ready for Android development.

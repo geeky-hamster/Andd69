@@ -1,0 +1,21 @@
+2. Configure Android Development Tools (ADT) Plug-in and Create Android Virtual Device
+
+**Step 1: Configure Android Development Tools (ADT) Plug-in**
+- The ADT plug-in was used with Eclipse IDE for Android development. However, modern Android development uses Android Studio, which has all necessary tools integrated.
+- If using Eclipse (legacy):
+  - Go to Help > Install New Software.
+  - Add the ADT plug-in URL: https://dl-ssl.google.com/android/eclipse/
+  - Select 'Developer Tools' and follow the prompts to install.
+  - Restart Eclipse after installation.
+- In Android Studio, ADT functionality is built-in, so no separate installation is required.
+
+**Step 2: Create Android Virtual Device (AVD)**
+- Open Android Studio.
+- Go to Tools > Device Manager (or AVD Manager).
+- Click 'Create Device'.
+- Select a hardware profile (e.g., Pixel 4) and click 'Next'.
+- Choose a system image (e.g., Android 12.0) and click 'Next'.
+- Configure AVD settings as needed and click 'Finish'.
+- The new virtual device will appear in the Device Manager. You can start it by clicking the 'Play' button.
+
+This process allows you to emulate Android devices for testing your applications without needing a physical device.
